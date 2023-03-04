@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="15" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-04T13:08:47 GST" name="NopCommerce Regression" finished-at="2023-03-04T13:09:13 GST" duration-ms="26774">
+    <groups>
+    </groups>
+    <test started-at="2023-03-04T13:08:47 GST" name="Registeration and Login" finished-at="2023-03-04T13:08:58 GST" duration-ms="11879">
+      <class name="tests.RegisterationTest">
+        <test-method signature="UserCanRegisterSuccessfully()[pri:1, instance:tests.RegisterationTest@2ad2b274]" started-at="2023-03-04T13:08:47 GST" name="UserCanRegisterSuccessfully" finished-at="2023-03-04T13:08:56 GST" duration-ms="9733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccessfully -->
+        <test-method is-config="true" signature="TakeScreenShots(org.testng.ITestResult)[pri:0, instance:tests.RegisterationTest@2ad2b274]" started-at="2023-03-04T13:08:56 GST" name="TakeScreenShots" finished-at="2023-03-04T13:08:57 GST" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSuccessfully status=SUCCESS method=RegisterationTest.UserCanRegisterSuccessfully()[pri:1, instance:tests.RegisterationTest@2ad2b274] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShots -->
+        <test-method signature="UserCanLogin()[pri:2, instance:tests.RegisterationTest@2ad2b274]" started-at="2023-03-04T13:08:57 GST" name="UserCanLogin" finished-at="2023-03-04T13:08:58 GST" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanLogin -->
+        <test-method is-config="true" signature="TakeScreenShots(org.testng.ITestResult)[pri:0, instance:tests.RegisterationTest@2ad2b274]" started-at="2023-03-04T13:08:58 GST" name="TakeScreenShots" finished-at="2023-03-04T13:08:58 GST" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanLogin status=SUCCESS method=RegisterationTest.UserCanLogin()[pri:2, instance:tests.RegisterationTest@2ad2b274] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShots -->
+      </class> <!-- tests.RegisterationTest -->
+    </test> <!-- Registeration and Login -->
+    <test started-at="2023-03-04T13:08:59 GST" name="Search For Products and working with it" finished-at="2023-03-04T13:09:06 GST" duration-ms="7775">
+      <class name="tests.AddToWishListTest">
+        <test-method signature="AddtoWishListTestCase()[pri:1, instance:tests.AddToWishListTest@4731c9af]" started-at="2023-03-04T13:09:02 GST" name="AddtoWishListTestCase" finished-at="2023-03-04T13:09:05 GST" duration-ms="2536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoWishListTestCase -->
+        <test-method is-config="true" signature="TakeScreenShots(org.testng.ITestResult)[pri:0, instance:tests.AddToWishListTest@4731c9af]" started-at="2023-03-04T13:09:05 GST" name="TakeScreenShots" finished-at="2023-03-04T13:09:05 GST" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddtoWishListTestCase status=SUCCESS method=AddToWishListTest.AddtoWishListTestCase()[pri:1, instance:tests.AddToWishListTest@4731c9af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShots -->
+      </class> <!-- tests.AddToWishListTest -->
+      <class name="tests.SearchForProductTest">
+        <test-method signature="SearchForProduct()[pri:2, instance:tests.SearchForProductTest@7ed6e557]" started-at="2023-03-04T13:08:59 GST" name="SearchForProduct" finished-at="2023-03-04T13:09:02 GST" duration-ms="3696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchForProduct -->
+        <test-method is-config="true" signature="TakeScreenShots(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductTest@7ed6e557]" started-at="2023-03-04T13:09:02 GST" name="TakeScreenShots" finished-at="2023-03-04T13:09:02 GST" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchForProduct status=SUCCESS method=SearchForProductTest.SearchForProduct()[pri:2, instance:tests.SearchForProductTest@7ed6e557] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShots -->
+      </class> <!-- tests.SearchForProductTest -->
+      <class name="tests.AddToShopCartTestCase">
+        <test-method signature="UserCanAdditemtotheshopcart()[pri:1, instance:tests.AddToShopCartTestCase@2417413c]" started-at="2023-03-04T13:09:05 GST" name="UserCanAdditemtotheshopcart" finished-at="2023-03-04T13:09:06 GST" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAdditemtotheshopcart -->
+        <test-method is-config="true" signature="TakeScreenShots(org.testng.ITestResult)[pri:0, instance:tests.AddToShopCartTestCase@2417413c]" started-at="2023-03-04T13:09:06 GST" name="TakeScreenShots" finished-at="2023-03-04T13:09:06 GST" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanAdditemtotheshopcart status=SUCCESS method=AddToShopCartTestCase.UserCanAdditemtotheshopcart()[pri:1, instance:tests.AddToShopCartTestCase@2417413c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShots -->
+      </class> <!-- tests.AddToShopCartTestCase -->
+    </test> <!-- Search For Products and working with it -->
+    <test started-at="2023-03-04T13:09:06 GST" name="CheckOut TestCases" finished-at="2023-03-04T13:09:12 GST" duration-ms="5792">
+      <class name="tests.CheckOutTestCase">
+        <test-method signature="UserCanCheckOuthissearcheditem()[pri:0, instance:tests.CheckOutTestCase@3e99738e]" started-at="2023-03-04T13:09:06 GST" name="UserCanCheckOuthissearcheditem" finished-at="2023-03-04T13:09:12 GST" duration-ms="5609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanCheckOuthissearcheditem -->
+        <test-method is-config="true" signature="TakeScreenShots(org.testng.ITestResult)[pri:0, instance:tests.CheckOutTestCase@3e99738e]" started-at="2023-03-04T13:09:12 GST" name="TakeScreenShots" finished-at="2023-03-04T13:09:12 GST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanCheckOuthissearcheditem status=SUCCESS method=CheckOutTestCase.UserCanCheckOuthissearcheditem()[pri:0, instance:tests.CheckOutTestCase@3e99738e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShots -->
+      </class> <!-- tests.CheckOutTestCase -->
+    </test> <!-- CheckOut TestCases -->
+    <test started-at="2023-03-04T13:09:12 GST" name="User Can Log Out Test Case" finished-at="2023-03-04T13:09:13 GST" duration-ms="1266">
+      <class name="tests.UserCanLogOutTestCase">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:tests.UserCanLogOutTestCase@3cf828db]" started-at="2023-03-04T13:08:41 GST" name="openURL" finished-at="2023-03-04T13:08:47 GST" duration-ms="5496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="UserCanLogOut()[pri:0, instance:tests.UserCanLogOutTestCase@3cf828db]" started-at="2023-03-04T13:09:12 GST" name="UserCanLogOut" finished-at="2023-03-04T13:09:13 GST" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanLogOut -->
+        <test-method is-config="true" signature="TakeScreenShots(org.testng.ITestResult)[pri:0, instance:tests.UserCanLogOutTestCase@3cf828db]" started-at="2023-03-04T13:09:13 GST" name="TakeScreenShots" finished-at="2023-03-04T13:09:13 GST" duration-ms="452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanLogOut status=SUCCESS method=UserCanLogOutTestCase.UserCanLogOut()[pri:0, instance:tests.UserCanLogOutTestCase@3cf828db] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShots -->
+        <test-method is-config="true" signature="ExitWebsite()[pri:0, instance:tests.UserCanLogOutTestCase@3cf828db]" started-at="2023-03-04T13:09:13 GST" name="ExitWebsite" finished-at="2023-03-04T13:09:14 GST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitWebsite -->
+      </class> <!-- tests.UserCanLogOutTestCase -->
+    </test> <!-- User Can Log Out Test Case -->
+  </suite> <!-- NopCommerce Regression -->
+</testng-results>
